@@ -237,7 +237,7 @@ The data suggests that reduced visibility creates conditions where accidents, th
 ---
 
 ## Project Structure
-
+```
 Data_Visualization_Project/
 ├── data/
 │   ├── Raw_data(Road_Accident).csv           # Original dataset from Kaggle
@@ -355,7 +355,7 @@ This analysis demonstrates critical visualization principles:
 
 ### Running the Analysis
 
-1. **Clone the Repository**
+1.. **Clone the Repository**
    ```bash
    git clone https://github.com/nirajmali308-collab/Data_Visualization_Project_2026.git
    ```
@@ -409,14 +409,6 @@ The provided notebooks enable customization:
 
 5. **Regional Variation:** State-level patterns warrant investigation of local factors (enforcement, infrastructure, reporting)
 
-### Recommended Further Research
-
-- **Per-Capita Normalization:** Adjust counts by state population and traffic volume
-- **Temporal Expansion:** Analyze full-year data to capture seasonal patterns
-- **Causal Modeling:** Use regression techniques to identify independent risk factors
-- **Intervention Evaluation:** Assess impact of specific safety measures
-- **Vulnerable Populations:** Detailed analysis of pedestrian and cyclist outcomes
-- **Emergency Response:** Investigate relationship between response time and casualty outcomes
 
 ### Policy Implications
 
@@ -428,30 +420,18 @@ The provided notebooks enable customization:
 
 ---
 
-## Data Ethics and Responsible Use
-
-This dataset represents tragic real-world events. Analysis should be conducted with:
-- Respect for those affected by accidents
-- Acknowledgment of individual circumstances beyond aggregate statistics
-- Responsible interpretation avoiding victim-blaming
-- Focus on systematic improvements rather than individual fault
-
----
 
 ## Author and Contributions
-
-**Data Analysis Project Lead:** [Project Team]
+Niraj K Mali
 
 **Data Source:** Road accident records from multiple U.S. states (2024)
 
 **Analysis Methods:** Statistical analysis, data visualization, exploratory data analysis
 
 ## License
-
-This analysis is provided for educational and research purposes. Use of this data should follow applicable data privacy regulations and be conducted with appropriate ethical oversight.
-
 ---
-
+This analysis is provided for educational and research purposes. Use of this data should follow applicable data privacy regulations and be conducted with appropriate ethical oversight.
+---
 
 ## Disclaimer
 
@@ -474,11 +454,10 @@ For questions, feedback, or suggestions regarding this analysis:
 
 ---
 
-**Project Completion Date:** April 2026  
+**Project Completion Date:** May 2026  
 **Data Period:** January - February 2024  
 **Total Records Analyzed:** 1,611 accidents  
-**Project Status:** Complete with ongoing visualization development  
-**Last Updated:** April 28, 2026
+**Project Status:** Completed
 ---
 
 *This README provides comprehensive documentation of the road accident dataset, analysis methodologies, visualizations, and findings. It serves as both a technical reference and an accessible guide for stakeholders interested in road safety insights.*# Data_Visualization_Project
