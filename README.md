@@ -338,16 +338,6 @@ This analysis demonstrates critical visualization principles:
    - Box plots for distributions and variability
    - Strip plots for showing actual data density
    - Grouped bars for comparing multiple metrics
-
-3. **Acknowledge Confounders:**
-   - Weather affects accident frequency (primary effect)
-   - Weather's effect on individual accident severity is less clear (secondary effect)
-   - These effects require separate discussion
-
-4. **Normalize for Exposure:**
-   - Absolute counts misleading without exposure metrics
-   - Per-capita or per-vehicle-mile comparisons provide true safety insights
-
 ---
 
 ## Usage Instructions
