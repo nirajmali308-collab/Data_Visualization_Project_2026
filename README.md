@@ -78,30 +78,27 @@ The dataset has undergone comprehensive data cleaning and validation:
 ## Key Visualizations and Findings
 
 ### Visualization 1: Geographic Distribution - Top 10 States for Road Accidents
+<img width="1289" height="726" alt="Screenshot 2026-04-28 130204" src="https://github.com/user-attachments/assets/132ca115-2c6c-4736-a346-e24b1ac20303" />
 
 **Type:** Horizontal Bar Chart (Frequency Count)
-
 **Description:** This visualization identifies which states have the highest number of recorded road accidents, helping prioritize regions for safety interventions and infrastructure analysis.
-
 **Key Insights:**
 - Certain states show significantly higher accident frequencies than others
 - Large population states tend to have higher absolute accident counts
 - Geographic hotspots can be identified for targeted safety campaigns
 - State-level variation may reflect differences in population density, traffic volume, or reporting mechanisms
-
 **Important Caveat:**
 The visualization displays raw accident counts by state without accounting for population size, vehicle miles traveled, or exposure variables. Larger states (e.g., Texas, California) naturally experience more accidents due to higher populations and road usage. This chart should not be interpreted as indicating actual per-capita road safety disparities without normalization by exposure metrics. The data is structured to represent all states relatively evenly, limiting direct comparisons to real-world safety trends.
 
 ---
 
 ### Visualization 2: Weather Conditions and Casualty Outcomes
+<img width="1220" height="724" alt="Screenshot 2026-04-28 130220" src="https://github.com/user-attachments/assets/fb19391d-278c-4997-8a7a-8d3197d522d3" />
 
 #### Graph A: Average Casualties by Weather Conditions (Bar Chart)
 
 **Type:** Aggregated Bar Chart with Error Metrics
-
 **Description:** Comparison of mean casualty counts across different weather conditions, revealing whether weather severity translates to more severe accident outcomes.
-
 **Key Insights:**
 - Average number of casualties remains relatively consistent across all weather types (approximately 1-1.5 per incident)
 - While certain weather conditions may cause MORE accidents, each individual accident's severity is not substantially increased
@@ -109,29 +106,26 @@ The visualization displays raw accident counts by state without accounting for p
 - Stormy conditions show slightly elevated averages but the difference is not substantial
 
 #### Graph B: Casualty Variability by Weather Conditions (Box Plot)
+<img width="1080" height="724" alt="Screenshot 2026-04-28 130231" src="https://github.com/user-attachments/assets/d13e84e9-a1a8-4917-94c3-56095254d187" />
 
 **Type:** Distribution Visualization with Quartiles and Outliers
-
 **Description:** Box plot revealing the variability and range of casualty counts across different weather conditions, highlighting individual incident severity distribution.
-
 **Key Insights:**
 - All weather conditions show high variability in casualties (0-5 range)
 - Median casualties remain low regardless of weather (0-1 person per accident)
 - Extreme outliers exist across all weather types, indicating occasional severe incidents
 - The distribution pattern prevents the mean from being misleading
 - Low-visibility conditions (Foggy, Stormy) show slightly elevated casualty quartiles compared to clear conditions
-
 **Critical Distinction:**
 The bar chart alone could misleadingly suggest that Stormy weather creates proportionally more severe accidents. The box plot provides essential context, revealing that severity variation is substantial within each weather category, and the median impact is similar across conditions. This example demonstrates why multiple visualization types are necessary for complete understanding.
 
 ---
 
 ### Visualization 3: Vehicle Speed Variability by Road Type (Box Plot + Strip Plot)
+<img width="1084" height="723" alt="Screenshot 2026-04-28 130517" src="https://github.com/user-attachments/assets/5c6e0e11-4ace-43c4-820f-b9b24ab38a8c" />
 
 **Type:** Combined Box Plot with Scatter Overlay
-
 **Description:** This visualization displays both the distribution and individual data points of vehicle speeds across different road categories, showing both central tendency and actual variation.
-
 **Key Insights:**
 - **Highway vs. Urban Speeds:** Median vehicle speed on highways is significantly higher (65-85 mph) compared to urban streets (20-40 mph)
 - **Speed Consistency:** Urban street speeds show much less variability (shorter box), indicating consistent traffic control through speed limits and congestion
@@ -148,13 +142,9 @@ The bar chart alone could misleadingly suggest that Stormy weather creates propo
 ---
 
 ### Visualization 4: Average Casualties by Road Conditions (Bar Chart + Box Plot)
-
 #### Graph A: Mean Casualties by Road Condition
-
-**Type:** Bar Chart Ranked by Average Impact
-
+<img width="1004" height="652" alt="Screenshot 2026-04-28 130536" src="https://github.com/user-attachments/assets/bddd916b-0f46-4461-bc83-356ac14eb989" />
 **Description:** Systematic comparison of casualty outcomes across road surface conditions (Dry, Wet, Muddy, Snowy, Icy), ranked from lowest to highest average impact.
-
 **Key Insights:**
 - Clear upward trend in average casualties as road conditions deteriorate
 - **Dry roads:** Approximately 1.0-1.1 average casualties per incident
@@ -163,8 +153,7 @@ The bar chart alone could misleadingly suggest that Stormy weather creates propo
 - **Snowy/Icy roads:** Highest average casualties (1.4-1.5 per incident)
 
 #### Graph B: Casualty Distribution by Road Condition (Box Plot)
-
-**Type:** Distribution Analysis with Quartile Markers
+<img width="953" height="643" alt="Screenshot 2026-04-28 130546" src="https://github.com/user-attachments/assets/4c661da7-704b-4732-b83b-99e33eea58b6" />
 
 **Key Insights:**
 - Each road condition category contains comparable sample sizes, ensuring statistical reliability
@@ -178,11 +167,9 @@ There is a clear monotonic relationship between road surface friction and accide
 ---
 
 ### Visualization 5: Average Casualties by Driver Age Group
-
-**Type:** Bar Chart with Age Group Ranking
+<img width="993" height="651" alt="Screenshot 2026-04-28 130559" src="https://github.com/user-attachments/assets/0af77e32-2c7e-48cc-88d6-952bfd682544" />
 
 **Description:** Analysis of accident severity across different driver age categories, revealing how driver experience and age affect accident outcomes.
-
 **Key Insights:**
 - **Clear upward trend:** Casualties increase progressively with driver age group
 - **Teenager drivers:** Approximately 1.0-1.1 average casualties per incident
@@ -202,12 +189,9 @@ While this pattern might initially suggest senior drivers cause more severe acci
 ---
 
 ### Visualization 6: Vehicles Involved and Casualties by Light Conditions (Grouped Bar Chart)
-
-**Type:** Multi-Series Bar Chart Comparing Two Metrics
+<img width="1121" height="678" alt="Screenshot 2026-04-28 130613" src="https://github.com/user-attachments/assets/ef36f0c2-3eb6-4eac-90e3-0786b1ec194f" />
 
 **Description:** Comparative analysis of both vehicle involvement count and casualty outcomes across four light condition categories (Daylight, Dawn, Dusk, Night).
-
-**Key Insights:**
 
 #### Trends Identified
 1. **Night-Time Severity Paradox:** Despite involving fewer vehicles on average, nighttime accidents produce the HIGHEST casualty counts, indicating disproportionately severe outcomes
@@ -240,14 +224,6 @@ The data suggests that reduced visibility creates conditions where accidents, th
 - Geographic distribution across states provides national representation
 - Continuous variables (speeds, distances, times) show realistic ranges and distributions
 
-### Limitations and Caveats
-
-1. **Geographic Bias:** Raw counts do not account for population size or traffic volume exposure
-2. **Temporal Scope:** Two-month period may not capture seasonal patterns (snow prevalence, holiday travel)
-3. **Underreporting:** Dataset may underrepresent minor incidents with no casualties
-4. **Causality vs. Correlation:** Observed associations do not establish causal relationships
-5. **Confounding Variables:** Complex relationships between variables may have unmeasured confounders
-6. **Individual vs. Population:** Patterns describe group trends but show high individual variation
 
 ### What Can Be Misunderstood from These Visualizations
 
@@ -262,31 +238,21 @@ The data suggests that reduced visibility creates conditions where accidents, th
 
 ## Project Structure
 
-```
-Road-Accident-Analysis/
-├── README.md                              # Project documentation
+Data_Visualization_Project/
+├── data/
+│   ├── Raw_data(Road_Accident).csv           # Original dataset from Kaggle
+│   └── Cleaned_Data.csv                      # Processed data used for analysis
 │
-├── Data Files/
-│   ├── Dataset_Heart_Disease.csv         # Original raw dataset (pre-cleaning)
-│   └── Cleaned_Data.csv                  # Processed and validated dataset
+├── notebooks/
+│   ├── EDA_Draft.ipynb                       # Initial exploratory data analysis
+│   ├── (DV)Visual_Exploration_Assignments.ipynb 
+│   ├── (DV)Visual_Narrative_Assignments.ipynb
+│   └── (DV)Ethics_and_Refinements.ipynb      # Final project polish and ethics
 │
-├── Jupyter Notebooks/
-│   ├── Data_Cleaning.ipynb               # Data preprocessing and validation
-│   ├── Initial_visualisation.ipynb       # Exploratory analysis visualizations
-│   ├── Geographic_Analysis.ipynb         # State and location analysis
-│   ├── Environmental_Factors.ipynb       # Weather and road condition analysis
-│   ├── Temporal_Analysis.ipynb           # Time and light condition patterns
-│   ├── Driver_and_Severity.ipynb         # Driver demographics and outcomes
-│   └── Comprehensive_Analysis.ipynb      # Integrated multi-factor analysis
+├── presentations/
+│   └── Road_Accident_Analysis.pptx           # Final project slide deck
 │
-└── Visualizations/
-    ├── top_10_states_accidents.png       # Geographic distribution
-    ├── weather_casualties_bar.png        # Weather impact analysis
-    ├── weather_casualties_box.png        # Weather severity distribution
-    ├── speed_by_road_type.png            # Speed variation patterns
-    ├── casualties_by_road_condition.png  # Road condition effects
-    ├── casualties_by_driver_age.png      # Age-related severity
-    └── light_conditions_comparison.png   # Lighting and visibility impact
+└── README.md                                 # Project overview and documentation
 ```
 
 ## Technologies and Tools
@@ -324,10 +290,6 @@ Road-Accident-Analysis/
 - High-visibility conditions associated with higher vehicle counts but lower per-incident severity
 - Low-visibility conditions show more concentrated, severe accidents
 
-**Time of Day:**
-- Multiple temporal patterns warrant investigation through additional analysis
-- Emergency response time may vary by location and time of day, affecting outcome severity
-
 ### Driver and Vehicle Factors
 
 **Age-Related Patterns:**
@@ -341,15 +303,6 @@ Road-Accident-Analysis/
 - Urban streets: 20-40 mph median speeds
 - Rural roads: Intermediate speeds with high variability
 - Speed variation within road types indicates significant individual driver behavior variation
-
-### Geographic Patterns
-
-**State-Level Variation:**
-- Significant variation in accident frequencies across states
-- Important caveat: Variation reflects exposure (population, traffic volume) rather than per-capita safety
-- Regional patterns suggest potential for targeted safety interventions
-
----
 
 ## Key Statistical Discoveries
 
@@ -402,24 +355,32 @@ This analysis demonstrates critical visualization principles:
 
 ### Running the Analysis
 
-1. **Environment Setup**
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/nirajmali308-collab/Data_Visualization_Project_2026.git
+   ```
+
+
+
+
+2.. **Environment Setup**
    ```bash
    # Install required packages
    pip install pandas numpy matplotlib seaborn scikit-learn jupyter
    ```
 
-2. **Data Preparation**
+3. **Data Preparation**
    ```bash
    # Ensure Cleaned_Data.csv is in your working directory
    # Dataset contains 1,611 accident records with 23 features
    ```
 
-3. **Launch Analysis Environment**
+4. **Launch Analysis Environment**
    ```bash
    jupyter notebook
    ```
 
-4. **Execute Notebooks Sequentially**
+5. **Execute Notebooks Sequentially**
    - Start with data exploration notebooks
    - Progress to visualization notebooks
    - Review comprehensive analysis last
