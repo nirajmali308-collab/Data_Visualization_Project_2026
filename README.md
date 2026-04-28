@@ -300,7 +300,6 @@ Data_Visualization_Project/
 **Road Type and Speed:**
 - Clear correspondence between road type and typical vehicle speeds
 - Highways: 65-85 mph median speeds
-- Urban streets: 20-40 mph median speeds
 - Rural roads: Intermediate speeds with high variability
 - Speed variation within road types indicates significant individual driver behavior variation
 
@@ -359,27 +358,20 @@ This analysis demonstrates critical visualization principles:
    ```bash
    git clone https://github.com/nirajmali308-collab/Data_Visualization_Project_2026.git
    ```
-
-
-
-
 2.. **Environment Setup**
    ```bash
    # Install required packages
    pip install pandas numpy matplotlib seaborn scikit-learn jupyter
    ```
-
 3. **Data Preparation**
    ```bash
    # Ensure Cleaned_Data.csv is in your working directory
    # Dataset contains 1,611 accident records with 23 features
    ```
-
 4. **Launch Analysis Environment**
    ```bash
    jupyter notebook
-   ```
-
+    ```
 5. **Execute Notebooks Sequentially**
    - Start with data exploration notebooks
    - Progress to visualization notebooks
@@ -391,7 +383,6 @@ The provided notebooks enable customization:
 - **Filter by state, date range, or conditions** for focused analysis
 - **Modify visualization parameters** (colors, sizes, labels)
 - **Generate subgroup analyses** (e.g., highway accidents only)
-- **Export visualizations** in multiple formats (PNG, PDF, SVG)
 
 ---
 
@@ -420,13 +411,8 @@ The provided notebooks enable customization:
 
 ---
 
-
 ## Author and Contributions
 Niraj K Mali
-
-**Data Source:** Road accident records from multiple U.S. states (2024)
-
-**Analysis Methods:** Statistical analysis, data visualization, exploratory data analysis
 
 ## License
 ---
@@ -455,8 +441,6 @@ For questions, feedback, or suggestions regarding this analysis:
 ---
 
 **Project Completion Date:** May 2026  
-**Data Period:** January - February 2024  
-**Total Records Analyzed:** 1,611 accidents  
 **Project Status:** Completed
 ---
 
