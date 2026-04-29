@@ -426,7 +426,6 @@ All road safety decisions should be made in consultation with qualified traffic 
 For questions, feedback, or suggestions regarding this analysis:
 - Review the GitHub repository
 - Examine raw notebooks for methodology details
-- Contact the project team for clarifications
 
 ---
 
